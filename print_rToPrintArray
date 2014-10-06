@@ -1,0 +1,21 @@
+<?php
+
+//can't use echo to print array; use print_r
+
+//example:
+
+$characters = ["Popeye", "Brutus", "Olive Oyl"];
+print_r($characters);
+
+//to display second element in above array:
+
+echo $characters(1); //indexed from 0
+
+
+//to add elements to existing array:
+
+$characters[] = "Sweetpea";
+
+//this is example of indexed array; indexed from 0
+
+

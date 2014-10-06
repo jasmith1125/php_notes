@@ -1,0 +1,5 @@
+/* incorporate variable into string without concatenating --use double quotes */
+
+//example:
+$book = 'Mutiny on the Bounty';
+echo "I love $book";
